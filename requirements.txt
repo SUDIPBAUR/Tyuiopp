@@ -4,3 +4,4 @@ numpy
 ccxt
 tensorflow
 ta
+dotenv
