@@ -8,6 +8,10 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from ta import add_all_ta_features
 import os
+from dotenv import load_dotenv
+load_dotenv()  # Add this at the top before other imports
+
+# Rest of your Binance setup remains the same
 
 # Binance setup with error handling
 def setup_exchange():
