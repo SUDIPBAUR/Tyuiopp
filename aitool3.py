@@ -11,8 +11,8 @@ import os
 
 # Binance setup with error handling
 def setup_exchange():
-    api_key = os.getenv("ahT3xVORAGJvU1GxXzTljnlhgBOd6nEPFtVVKpWwGJhS5I9IwsmUCR6yIYIHDYzF")
-    api_secret = os.getenv("D3HZMZilrqyQsClLGWvEb0MsGg06NOLY2D0BgAZnDoPeSJpftsFXrA4bVbnGRTEf")
+    api_key = ("zSytUpX7UqgSZH2Ig9DrTpEQTR77wBqTwldiLIrwoJWpXUU1ksUAywdxUWVMtCsm")
+    api_secret = os.getenv("orEZ15ayLiAfBjwYuEDLlTsNwrp4hIec8GSyWvOqmEbImpzsjJU9PmKbpxRqijzu")
     
     if not api_key or not api_secret:
         st.error("Binance API keys not found in environment variables!")
